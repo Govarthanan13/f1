@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="myAudio" >
+        <source src="theme.mp3" type="audio/mp3">
+        
+    </audio>
+    <header>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Contacts</a>
+            <a href="">Info</a>
+        </nav>
+    </header>
+    <div class="carousel ">
+        
+        <div class="list">
+            <div class="item">
+            <img src="mercedes.jpg">
+            <div class="content">
+                <div class="name">MERCEDES</div>
+                <div class="cons">8x CONSTRUCTOR'S &</div>
+                <div class="driver">9x DRIVER'S CHAMPS</div>
+                <div class="wins">125 Wins</div>
+                <div class="pole">137 Pole Positions</div>
+                <div class="podium">289 Podiums</div>
+                <div class="fast">105 Fastest Laps</div>
+                <div class="success">Most successful driver : Sir Lewis Hamilton</div>
+                <div class="buttons">
+                    <button type="button" onclick="window.open('https://www.mercedesamgf1.com/', '_blank')">SEE MORE</button>
+                    <button onclick="playMusic()">MUSIC</button>
+                </div>
+            </div>
+            </div>
+        
+      
+        <div class="item">
+            <img src="ferrari.jpg">
+            <div class="content">
+                <div class="name">FERRARI</div>
+                <div class="cons">16x CONSTRUCTOR'S &</div>
+                <div class="driver">15x DRIVER'S CHAMPS</div>
+                <div class="wins">243 Wins</div>
+                <div class="pole">249 Pole Positions</div>
+                <div class="podium">807 Podiums</div>
+                <div class="fast">259 Fastest Laps</div>
+                <div class="success">Most successful driver : Michael Schumacher</div>
+                <div class="buttons">
+                    <button type="button" onclick="window.open('https://www.ferrari.com/en-EN/formula1', '_blank')">SEE MORE</button>
+                    <button onclick="playMusic()">MUSIC</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="item">
+            <img src="mclaren.jpg">
+            <div class="content">
+                <div class="name">McLAREN</div>
+                <div class="cons">8x CONSTRUCTOR'S &</div>
+                <div class="driver">12x DRIVER'S CHAMPS</div>
+                <div class="wins">183 Wins</div>
+                <div class="pole">156 Pole Positions</div>
+                <div class="podium">503 Podiums</div>
+                <div class="fast">165 Fastest Laps</div>
+                <div class="success">Most successful driver : Ayrton Senna</div>
+                <div class="buttons">
+                    <button type="button" onclick="window.open('https://www.mclaren.com/racing/formula-1/', '_blank')">SEE MORE</button>
+                    <button onclick="playMusic()">MUSIC</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="item">
+            <img src="redbull.jpg">
+            <div class="content">
+                <div class="name">REDBULL</div>
+                <div class="cons">6x CONSTRUCTOR'S &</div>
+                <div class="driver">7x DRIVER'S CHAMPS</div>
+                <div class="wins">113 Wins</div>
+                <div class="pole">95 Pole Positions</div>
+                <div class="podium">264 Podiums</div>
+                <div class="fast">95 Fastest Laps</div>
+                <div class="success">Most successful driver : Sebastian Vettal</div>
+                <div class="buttons">
+                    <button type="button" onclick="window.open('https://www.redbullracing.com/int-en', '_blank')">SEE MORE</button>
+                    <button onclick="playMusic()">MUSIC</button>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="williams.jpg">
+            <div class="content">
+                <div class="name">WILLIAMS</div>
+                <div class="cons">9x CONSTRUCTOR'S &</div>
+                <div class="driver">7x DRIVER'S CHAMPS</div>
+                <div class="wins">114 Wins</div>
+                <div class="pole">128 Pole Positions</div>
+                <div class="podium">313 Podiums</div>
+                <div class="fast">133 Fastest Laps</div>
+                <div class="success">Most successful driver : Nigel Mansell</div>
+                <div class="buttons">
+                    <button type="button" onclick="window.open('https://www.williamsf1.com/', '_blank')">SEE MORE</button>
+                    <button onclick="playMusic()">MUSIC</button>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="alfa.jpg">
+            <div class="content">
+                <div class="name">ALFA ROMEO</div>
+                <div class="cons">2x DRIVER'S</div>
+                <div class="driver">CHAMPIONSHIPS</div>
+                <div class="wins">10 Wins</div>
+                <div class="pole">12 Pole Positions</div>
+                <div class="podium">26 Podiums</div>
+                <div class="fast">16 Fastest Laps</div>
+                <div class="success">Most successful driver : Juan Manuel Fangio</div>
+                <div class="buttons">
+                    <button type="button" onclick="window.open('https://www.sauber-group.com/motorsport/formula-1/', '_blank')">SEE MORE</button>
+                    <button onclick="playMusic()">MUSIC</button>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="lotus.jpg">
+            <div class="content">
+                <div class="name">LOTUS</div>
+                <div class="cons">7x CONSTRUCTOR'S &</div>
+                <div class="driver">6x DRIVER'S CHAMPS</div>
+                <div class="wins">79 Wins</div>
+                <div class="pole">107 Pole Positions</div>
+                <div class="podium">172 Podiums</div>
+                <div class="fast">71 Fastest Laps</div>
+                <div class="success">Most successful driver : Jim Clark</div>
+                <div class="buttons">
+                    <button type="button" onclick="window.open('https://classicteamlotus.co.uk/en/home/', '_blank')">SEE MORE</button>
+                    <button onclick="playMusic()">MUSIC</button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="thumbnail">
+            <div class="item">
+                <img src="mercedes.jpg">
+                <div class="content">
+                    <div class="title">
+                        MERCEDES
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="ferrari.jpg">
+                <div class="content">
+                    <div class="title">
+                        FERRARI
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="mclaren.jpg">
+                <div class="content">
+                    <div class="title">
+                        McLAREN
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="redbull.jpg">
+                <div class="content">
+                    <div class="title">
+                        REDBULL
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="williams.jpg">
+                <div class="content">
+                    <div class="title">
+                        WILLIAMS
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="alfa.jpg">
+                <div class="content">
+                    <div class="title">
+                        ALFA ROMEO
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="lotus.jpg">
+                <div class="content">
+                    <div class="title">
+                        ALFA ROMEO
+                    </div>
+                </div>
+            </div>
+        
+           
+        </div>
+        </div>
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <div class="time"></div>
+        <h1>DRIVERS</h1>
+    </div><section class="drivers-section">
+        
+        <div class="drivers">
+            <img src="1677069594164.avif" alt="Lewis Hamilton">
+            <div class="drivers-info">
+                <h3>Lewis Hamilton</h3>
+                <p>Team: Mercedes</p>
+                <p>Wins: 103</p>
+            </div>
+        </div>
+        
+        <div class="drivers">
+            <img src="1677069810695.avif" alt="Valtteri Bottas">
+            <div class="drivers-info">
+                <h3>Valtteri Bottas</h3>
+                <p>Team: Alfa Romeo</p>
+                <p>Wins: 10</p>
+            </div>
+        </div>
+    
+        <div class="drivers">
+            <img src="1701270073824.avif" alt="Max Verstappen">
+            <div class="drivers-info">
+                <h3>Max Verstappen</h3>
+                <p>Team: Red Bull </p>
+                <p>Wins: 54</p>
+            </div>
+        </div>
+    
+        <div class="drivers">
+            <img src="1689928543988.avif" alt="Daniel Ricciardo">
+            <div class="drivers-info">
+                <h3>Daniel Ricciardo</h3>
+                <p>Team: AlphaTauri</p>
+                <p>Wins: 8</p>
+            </div>
+        </div>
+        <div class="drivers">
+            <img src="fs.avif" alt="fs">
+            <div class="drivers-info">
+                <h3>Fernando Alonso</h3>
+                <p>Team: Aston Martin</p>
+                <p>Wins: 32</p>
+            </div>
+        </div>
+        
+        <div class="drivers">
+            <img src="cl.avif" alt="Valtteri Bottas">
+            <div class="drivers-info">
+                <h3>Charles Lecrlerc</h3>
+                <p>Team: Ferrari</p>
+                <p>Wins: 5</p>
+            </div>
+        </div>
+    
+        <div class="drivers">
+            <img src="cs.avif" alt="Max Verstappen">
+            <div class="drivers-info">
+                <h3>Carlos Sainz</h3>
+                <p>Team: Ferrari</p>
+                <p>Wins: 2</p>
+            </div>
+        </div>
+    
+        <div class="drivers">
+            <img src="ln.avif" alt="Daniel Ricciardo">
+            <div class="drivers-info">
+                <h3>Lando Norris</h3>
+                <p>Team: McLaren</p>
+                <p>Wins: 0</p>
+            </div>
+        </div>
+        <div class="drivers">
+            <img src="sp.avif" alt="Lewis Hamilton">
+            <div class="drivers-info">
+                <h3>Sergio Perez</h3>
+                <p>Team: Red Bull</p>
+                <p>Wins: 6</p>
+            </div>
+        </div>
+        
+        <div class="drivers">
+            <img src="gr.avif" alt="Valtteri Bottas">
+            <div class="drivers-info">
+                <h3>George Russell</h3>
+                <p>Team: Mercedes</p>
+                <p>Wins: 1</p>
+            </div>
+        </div>
+    
+        <div class="drivers">
+            <img src="op.avif" alt="Max Verstappen">
+            <div class="drivers-info">
+                <h3>Oscar Piastri</h3>
+                <p>Team: McLaren</p>
+                <p>Wins: 0</p>
+            </div>
+        </div>
+    
+        <div class="drivers">
+            <img src="pg.avif" alt="Daniel Ricciardo">
+            <div class="drivers-info">
+                <h3>Piere Gasly</h3>
+                <p>Team: Alpine</p>
+                <p>Wins: 1</p>
+            </div>
+        </div>
+        <div class="drivers">
+            <img src="eo.avif" alt="Lewis Hamilton">
+            <div class="drivers-info">
+                <h3>Estabon Ocon</h3>
+                <p>Team: Alpine</p>
+                <p>Wins: 1</p>
+            </div>
+        </div>
+        
+        <div class="drivers">
+            <img src="ls.avif" alt="Valtteri Bottas">
+            <div class="drivers-info">
+                <h3>Lance Stroll</h3>
+                <p>Team: Aston Martin</p>
+                <p>Wins: 0</p>
+            </div>
+        </div>
+    
+        <div class="drivers">
+            <img src="nh.avif" alt="Max Verstappen">
+            <div class="drivers-info">
+                <h3>Nico Hulkenburg</h3>
+                <p>Team: Hass</p>
+                <p>Wins: 0</p>
+            </div>
+        </div>
+    
+        <div class="drivers">
+            <img src="km.avif" alt="Daniel Ricciardo">
+            <div class="drivers-info">
+                <h3>Kevin Magnussen</h3>
+                <p>Team: Hass</p>
+                <p>Wins: 0</p>
+            </div>
+        </div>
+        <div class="drivers">
+            <img src="zg.avif" alt="Lewis Hamilton">
+            <div class="drivers-info">
+                <h3>Zhou Guanyu</h3>
+                <p>Team: Alfa Romeo</p>
+                <p>Wins: 0</p>
+            </div>
+        </div>
+        
+        <div class="drivers">
+            <img src="aa.avif" alt="Valtteri Bottas">
+            <div class="drivers-info">
+                <h3>Alex Albon</h3>
+                <p>Team: Williams</p>
+                <p>Wins: 0</p>
+            </div>
+        </div>
+    
+        <div class="drivers">
+            <img src="yt.avif" alt="Max Verstappen">
+            <div class="drivers-info">
+                <h3>Yuki Tsunoda</h3>
+                <p>Team: AlphaTauri</p>
+                <p>Wins: 0</p>
+            </div>
+        </div>
+    
+        <div class="drivers">
+            <img src="lsa.avif" alt="Daniel Ricciardo">
+            <div class="drivers-info">
+                <h3>Logan Sargent</h3>
+                <p>Team: Williams</p>
+                <p>Wins: 0</p>
+            </div>
+        </div>
+  
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h2>Formula 1</h2>
+                <p>Official Website</p>
+                <a href="https://www.formula1.com/" target="_blank">Visit Formula 1</a>
+            </div>
+            <div class="footer-section">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Calendar</a></li>
+                 
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2>Connect With Us</h2>
+                <ul class="social-icons">
+                    <li><a href="#" target="_blank"><img src="facebook.png" alt="Facebook"></a></li>
+                    <li><a href="#" target="_blank"><img src="twitter.png" alt="Twitter"></a></li>
+                    <li><a href="#" target="_blank"><img src="instagram.png" alt="Instagram"></a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Formula 1. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
